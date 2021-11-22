@@ -31,7 +31,7 @@ try {
 }
 
 getAllPosts(){
-    $qry = 'select * from post;'; // Your query
+    $qry = 'select * from post'; // Your query
     $result = $this->connection -> query($qry); // execute query
     //return $result;
     while ($row = $result -> fetch()) {
